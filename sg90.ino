@@ -15,8 +15,8 @@
 #define MAX_ANGLE_DEG      180U
 
 /* Facoltativo: specifica l'escursione del tuo servo in µs (qui classico 1000–2000). */
-#define SERVO_MIN_US       1000U
-#define SERVO_MAX_US       2000U
+#define SERVO_MIN_US       500U
+#define SERVO_MAX_US       2500U
 
 static Servo g_servo;
 
